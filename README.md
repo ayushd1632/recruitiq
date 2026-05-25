@@ -27,7 +27,7 @@ RecruitIQ deploys 4 AI agents in sequence. Each has a specific role and expertis
 
 ## Live Demo
 
-🚀 **[Open RecruitIQ](YOUR_STREAMLIT_URL_HERE)**
+🚀 **[Open RecruitIQ](https://one-stop-recruitiq.streamlit.app/)**
 
 ## Architecture
 User Input (JD + Resume)
