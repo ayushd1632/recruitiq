@@ -23,6 +23,20 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Force hide the GitHub icon, Fork button, and header/footer elements
+hide_style = """
+    <style>
+    /* Hides the top right GitHub link and Fork buttons */
+    header {visibility: hidden;}
+    .stAppDeployButton {display: none !important;}
+    
+    /* Hides the default Streamlit menu and footer */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_style, unsafe_allow_html=True)
+
 # ─── Header ───
 st.title("🎯 RecruitIQ")
 st.markdown(
